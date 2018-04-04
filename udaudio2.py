@@ -7,6 +7,7 @@ TRIG1=18
 TRIG2=14
 ECHO1=24
 ECHO2=17
+//measuring the distance from udm 1
 while True:
  print "Measuring distance1"
  GPIO.setup(TRIG1,GPIO.OUT)
